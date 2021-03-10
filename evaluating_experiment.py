@@ -8,7 +8,7 @@ def add_mean_value_to_df(dataframe):
 
 
 
-df = pd.read_csv("/Users/ferry/Desktop/Coding/ergebnisse_modifiziert.csv")
+df = pd.read_csv("path")
 
 #select the relevant two questions for each condition by filtering the columns using regex
 df_dat_test = df.filter(regex=("test_dat_*"))
